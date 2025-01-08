@@ -136,10 +136,12 @@ main section{
         gap: 24px;
     }
     .skills-section{
+        
         background-color: #dfc6c6;
         padding: 104px 33px 30px 30px;
-        border: 5px;
+        border-radius: 5px;
         box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+        margin-top: 50px;
     }
     .section-description{
         padding: 3px;
@@ -148,4 +150,4 @@ main section{
        text-align: center;
 
     }
-    
+   
