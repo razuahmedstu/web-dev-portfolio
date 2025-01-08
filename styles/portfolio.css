@@ -9,6 +9,7 @@
     "wdth" 100;
 }
 /* shared style */
+
 .text-primary{
     color: #FD6E0A;
 }
@@ -36,7 +37,7 @@
 
 }
 
-.section-description{
+.section-description1{
     font-size:18px ;
     color:#757575 ;
 }
@@ -48,6 +49,9 @@
     font-size: 15px;
     font-weight: bold;
     color:#757575;
+}
+.text-center{
+    text-align: center;
 }
 
 /* header */
@@ -111,6 +115,10 @@ nav ul a{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* about */
 .about{
     border-radius: 10px;
@@ -121,5 +129,23 @@ nav ul a{
     .about-items{
         display: flex;
         justify-content: space-around;
+    }
+    /* skills */
+    .skills-contrainer{
+        display: flex;
+        gap: 24px;
+    }
+    .skills-section{
+        background-color: #dfc6c6;
+        padding: 104px 33px 30px 30px;
+        border: 5px;
+        box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    }
+    .section-description{
+        padding: 3px;
+       margin-left: 300px;
+       margin-right: 300px;
+       text-align: center;
+
     }
     
